@@ -13,11 +13,11 @@ export default function Login() {
           <form action="" className=" h-full pb-20 pt-16 px-1.5">
             <div className='relative my-2 text-xs'>
             <Envelope className="absolute left-2 top-1/2 transform -translate-y-1/2 w-4 h-6 text-color-icons" />
-              <input type="Email" placeholder="Email" className="rounded-md h-7 my-2 w-full bg-gris-claro text-black p-1 pl-8 " />
+              <input type="Email" placeholder="Email" className="rounded-md h-7 my-2 w-full bg-gris-claro text-black p-1 pl-8 placeholder-white" />
             </div>
             <div className='relative my-1 text-xs'>
                   <Lock className="absolute left-2 top-1/2 transform -translate-y-3/4 w-4 h-6 text-color-icons" />
-              <input type="Contraseña" placeholder="Contraseña" className="rounded-md mb-3 h-7 w-full bg-gris-claro text-black p-1 pl-8" />
+              <input type="Contraseña" placeholder="Contraseña" className="rounded-md mb-3 h-7 w-full bg-gris-claro text-black p-1 pl-8 placeholder-white" />
             </div>
             <div className="flex justify-between items-center">
               <div className="flex gap-1 items-center">

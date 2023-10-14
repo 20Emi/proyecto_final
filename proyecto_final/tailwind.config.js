@@ -12,8 +12,13 @@ export default {
         'azul-oscuro': '#026DBB',
         'color-icons': '#4D88AE',
       },
+      height: {
+        'custom': '72%',
     },
+    fontFamily: {
+      Inter: ['Inter', 'sans'],
   },
   plugins: [],
 }
-
+}
+}
